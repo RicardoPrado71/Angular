@@ -28,6 +28,8 @@ import { EstadoRead2Component } from './components/estado/estado-read2/estado-re
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { EstadoUpdateComponent } from './components/estado/estado-update/estado-update.component';
+import { EstadoDeleteComponent } from './components/estado/estado-delete/estado-delete.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { MatSortModule } from '@angular/material/sort';
     MyForDirective,
     EstadoCreateComponent,
     EstadoReadComponent,
-    EstadoRead2Component
+    EstadoRead2Component,
+    EstadoUpdateComponent,
+    EstadoDeleteComponent
   ],
   imports: [
     BrowserModule,
